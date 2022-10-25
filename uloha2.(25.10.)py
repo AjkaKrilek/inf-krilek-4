@@ -1,0 +1,6 @@
+str = input('zadaj vetu: ')
+countn = 0
+for i in str:
+    if i.isdigit():
+        countn += 1
+print('pocest cisel:', countn)
